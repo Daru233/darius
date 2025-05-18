@@ -1,31 +1,46 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+
 </script>
 
-<main>
-  <h1>hello world 4</h1>
+<h1>At a glance</h1>
 
-  <div class="card">
-    <Counter />
+<div class="grid">
+  <div class="bento col-span-6 row-span-2 about">
+    <div class="overlay">
+      <div class="bento-content">
+        <h3>About</h3>
+        <h1>Who I am,</h1>
+        <h1>Timeline of my career</h1>
+      </div>
+    </div>
+
   </div>
-</main>
+
+  <div class="bento col-span-4 row-span-2 experience">
+    <div class="bento-content">
+      <h3>Experience</h3>
+      <h1>Things I've worked on</h1>
+      <h1>Stuff I've built</h1>
+    </div>
+  </div>
+
+  <div class="bento col-span-4 row-span-2 arcade">
+    <div class="bento-content">
+      <h3>Arcade</h3>
+      <h1>Live leaderboard</h1>
+    </div>
+  </div>
+
+  <div class="bento col-span-6 row-span-2 projects">
+    <div class="bento-content">
+      <h3>Projects/ Hobbies</h3>
+      <h1>Things I've built for fun</h1>
+      <h1>Stuff I do for fun</h1>
+    </div>
+  </div>
+
+</div>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
+  @import './app.css';
 </style>
