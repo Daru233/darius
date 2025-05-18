@@ -3,7 +3,7 @@
   --bg: #f5f5f7;
   --fg: #111;
   --accent: #3b82f6;
-  --radius: 20px;
+  --radius: 22px;
   --gap: 1.5rem;
 }
 
@@ -18,8 +18,8 @@ body {
   background-color: var(--bg);
   color: var(--fg);
   line-height: 1.6;
-  padding-left: 22rem;
-  padding-right: 22rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
   padding-top: 2rem;
   padding-bottom: 8em;
 }
@@ -70,7 +70,6 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(255, 255, 255, 0.15); /* light frosted white */
   z-index: 0;
 }
 
@@ -102,7 +101,7 @@ h1, h2, h3 {
 
 /* bg images */
 .about {
-  background-image: url('/assets/img1.webp');
+  background-image: url('/assets/img5.webp');
   color: #fff;
 }
 
